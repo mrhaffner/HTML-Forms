@@ -1,0 +1,63 @@
+body {
+    background: #ECEEF1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.nav-top {
+    position: absolute;
+    right: 30px;
+    margin-top: 2px;
+    /* display: flex; */
+}
+
+.inline {
+    display: inline-block;
+}
+
+.sign-in-txt {
+    font-weight: normal;
+    color: #505050;
+    font-size: 12px;
+    text-align: right;
+    margin: 2px;
+}
+
+.forgot-txt {
+    color: #0077C5;
+    text-decoration: none;
+    text-align: right;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.btn {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    outline: none;
+}
+
+#sign-in-btn {
+    padding: 0 20px;
+    height: 34px;
+    position: relative;
+    top: -12px;
+    margin-left: 4px;
+}
+
+.lock-img {
+    height: 20px;
+    width: 16px;
+    margin-top: 0;
+    margin-right: 6px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDBDMTAuNzk1NiAwIDEyLjg5MjkgMi4xODQxNyAxMi45OTYgNS4yNjE1NEwxMyA1LjVWN0gxNEMxNS4xMDQ2IDcgMTYgNy44OTU0MyAxNiA5VjE4QzE2IDE5LjEwNDYgMTUuMTA0NiAyMCAxNCAyMEgyQzAuODk1NDMgMjAgMCAxOS4xMDQ2IDAgMThWOUMwIDcuODk1NDMgMC44OTU0MyA3IDIgN0gzVjUuNUMzIDIuMjk3NjEgNS4xMzI3MiAwIDggMFpNMTQgOUgyVjE4SDE0VjlaTTggMTFDOS4xMDQ1NyAxMSAxMCAxMS44OTU0IDEwIDEzQzEwIDEzLjczOTggOS41OTgyOCAxNC4zODU4IDkuMDAxMDggMTQuNzMxOEw5IDE1LjJDOSAxNS42NDE4IDguNTUyMjggMTYgOCAxNkM3LjQ4NzE2IDE2IDcuMDY0NDkgMTUuNjkxMiA3LjAwNjczIDE1LjI5MzNMNyAxNS4yTDYuOTk5OTMgMTQuNzMyNEM2LjQwMjE3IDE0LjM4NjYgNiAxMy43NDAzIDYgMTNDNiAxMS44OTU0IDYuODk1NDMgMTEgOCAxMVpNOCAyQzYuMzMxNTMgMiA1LjA4ODI2IDMuMjc3NDEgNS4wMDQ1IDUuMjgyNDJMNSA1LjVWN0gxMVY1LjVDMTEgMy4zNzAyOCA5LjcyODA2IDIgOCAyWiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
