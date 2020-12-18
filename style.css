@@ -32,7 +32,7 @@ li {
     margin: 2px;
 }
 
-.forgot-txt {
+.link {
     color: #0077C5;
     text-decoration: none;
     text-align: right;
@@ -133,4 +133,76 @@ li {
     border: 1px solid #c7c7c7;
     width: 380px;
     height: 596px;
+}
+
+.title {
+    color: #393A3D;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+.sub-title {
+    color: #393A3D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+label {
+    font-weight: normal;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+input {
+    border: 1px solid #C1C5C8;
+    height: 34px;
+    width: 320px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    color: #000000;
+    outline: none;
+    border-radius: 3px;
+    line-height: 1.3em;
+}
+
+input:focus {
+    border: 1px solid #52A8EC;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.warn-txt {
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+}
+
+.create-btn {
+    width: 333px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 6px 12px;
+}
+
+.disclaimer {
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+}
+
+.disclaimer a {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+.disclaimer-bold {
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    font-weight: bold;
 }
