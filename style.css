@@ -206,3 +206,47 @@ input:focus {
     color: #757575;
     font-weight: bold;
 }
+
+.form-footer {
+    background-color: #ECEEF1;
+    padding: 16px;
+    text-align: center;
+    font-size: 10px;
+    color: #8d9096;
+
+}
+
+.form-footer a {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    color: #505050;
+    line-height: .8;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #505050;
+}
+
+.privacy-btn {
+    font-family: inherit;
+    font-size: 14px;
+    background-color: #6B6C72;
+    border-radius: 3px;
+    z-index: 100;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 5%;
+    vertical-align: middle;
+    color: #fff;
+ 
+    margin: 0;
+    padding: 10px 12px;
+    outline: none;
+}
