@@ -133,6 +133,7 @@ li {
     border: 1px solid #c7c7c7;
     width: 380px;
     height: 596px;
+    position: relative;
 }
 
 .title {
@@ -140,6 +141,7 @@ li {
     font-weight: 400;
     line-height: 1.1;
     font-size: 24px;
+    text-align: center;
 }
 
 .sub-title {
@@ -147,9 +149,19 @@ li {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.2;
+    text-align: center;
 }
 
-label {
+.txt-center {
+    text-align: center;
+}
+
+.input-form {
+    margin: auto;
+    width: 90%;
+}
+
+.form-container label {
     font-weight: normal;
     color: #404040;
     font-size: 14px;
@@ -189,13 +201,14 @@ input:focus {
     padding: 6px 12px;
 }
 
-.disclaimer {
+.disclaimer-container {
     font-size: 12px;
     font-style: italic;
     color: #757575;
+    text-align: center;
 }
 
-.disclaimer a {
+.disclaimer-container a {
     color: #0077C5;
     text-decoration: none;
 }
@@ -205,14 +218,18 @@ input:focus {
     font-style: italic;
     color: #757575;
     font-weight: bold;
+    text-align: center;
 }
 
 .form-footer {
     background-color: #ECEEF1;
-    padding: 16px;
+    padding: 12px 0;
     text-align: center;
     font-size: 10px;
     color: #8d9096;
+    position: absolute;
+    bottom: 0px;
+    width: 100%
 
 }
 
@@ -245,7 +262,6 @@ input:focus {
     right: 5%;
     vertical-align: middle;
     color: #fff;
- 
     margin: 0;
     padding: 10px 12px;
     outline: none;
