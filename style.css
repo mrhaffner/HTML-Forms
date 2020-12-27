@@ -140,7 +140,7 @@ li {
     background-color: #fff;
     border: 1px solid #c7c7c7;
     width: 380px;
-    height: 596px;
+    height: 660px;
     position: relative;
 }
 
@@ -150,6 +150,7 @@ li {
     line-height: 1.1;
     font-size: 24px;
     text-align: center;
+    margin-top: 30px
 }
 
 .sub-title {
@@ -162,12 +163,28 @@ li {
 
 .txt-center {
     text-align: center;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.learn {
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .input-form {
     margin: auto;
     width: 90%;
 }
+
+.input-container {
+    margin-bottom: 27px;
+}
+
+.phone-input-container {
+    margin-bottom: 22px;
+}
+
 
 .form-container label {
     font-weight: normal;
@@ -187,6 +204,7 @@ input {
     outline: none;
     border-radius: 3px;
     line-height: 1.3em;
+    margin-top: 8px;
 }
 
 input:focus {
@@ -199,6 +217,7 @@ input:focus {
     padding: 5px 0;
     font-size: 10px;
     color: #444;
+    margin-top: 1px
 }
 
 .create-btn {
@@ -207,6 +226,7 @@ input:focus {
     font-size: 16px;
     font-weight: normal;
     padding: 6px 12px;
+    margin-bottom: 8px;
 }
 
 .disclaimer-container {
@@ -214,6 +234,7 @@ input:focus {
     font-style: italic;
     color: #757575;
     text-align: center;
+    line-height: 1.5;
 }
 
 .disclaimer-container a {
@@ -227,6 +248,7 @@ input:focus {
     color: #757575;
     font-weight: bold;
     text-align: center;
+    margin-top: -11px;
 }
 
 .form-footer {
@@ -251,11 +273,23 @@ input:focus {
     text-align: center;
     color: #505050;
     line-height: .8;
+    position: relative;
+    right: 200px;
+    margin-top: 30px;
 }
 
 .footer a {
     text-decoration: none;
     color: #505050;
+    margin-right: 8px;
+}
+
+.footer div {
+    margin-top: -2px
+}
+
+.footer p {
+    margin-bottom: -3px
 }
 
 .privacy-btn {
